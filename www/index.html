@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+            <head>
+            <!--
+                Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+                For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+            -->
+                <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+                
+                <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+                <meta name="format-detection" content="telephone=no">
+                <meta name="msapplication-tap-highlight" content="no">
+                <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        		
+        	     <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+        		
+                <link rel="stylesheet" type="text/css" href="css/index.css">
+                <link rel="stylesheet" type="text/css" href="css/custom.css">
+        	       <link rel="stylesheet" type="text/css" href="css/animation.css">
+                <link rel="stylesheet" type="text/css" href="css/app.css">
+        	       <link rel="stylesheet" type="text/css" href="css/slider.css">
+                <title>clock</title>
+            </head>
+        <body>
+
+        <div class="container">
+                    <div class="top">
+                                <div class="top-btn" id="red">clock</div>
+                                <div class="top-btn" id="blue">stop watch</div>                               
+                    </div>
+                    <div class="red">
+                                <div class="clock-holder">
+                                        <div class="clock-time">
+                                                    <span class="big-time">
+                                                            <span id="hour">00</span>:<span id="minute">00</span></span><span class="small-time">am</span>
+                                        </div>
+                                         <div class="clock-date">
+                                                    <span class="mon-date">
+                                                        January
+                                                    </span> 
+                                                    <span class="day-date">
+                                                        1
+                                                    </span>,
+                                                    <span class="year-date">
+                                                        1900
+                                                    </span>
+                                         </div>
+                                        
+                                </div>
+                    </div>
+
+                    <div class="blue">
+                                <div class="clock-holder">
+                                        <div class="clock-time">
+                                                    <div class="ct-left">
+                                                         <span class="big-time big-clock">0</span>
+                                                    </div>
+                                                     <div class="ct-right">
+                                                          <span class="small-time small-clock">00</span>
+                                                     </div>                                                    
+                                        </div>                                     
+                                </div>
+                                <div class="clock-footer">
+                                        <div class="footer-btn">
+                                                <span class="footer-txt" id="reset">reset</span>
+                                        </div>
+                                        <div class="footer-btn">
+                                            <span class="footer-txt" id="start">start</span>
+                                        </div>
+                                        <div class="footer-btn">
+                                            <span class="footer-txt" id="stop">stop</span>
+                                        </div>
+                                </div>
+                        
+                    </div>               
+            
+        </div>
+                       
+                  <script type="text/javascript" src="cordova.js"></script>
+                  <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+                  <script type="text/javascript" src="scripts/index.js"></script>
+                	<script type="text/javascript" src="scripts/app.js"></script>
+                	<script type="text/javascript" src="scripts/custom.js"></script>
+                	<script type="text/javascript" src="scripts/slider.js"></script>
+                  <script type="text/javascript" src="scripts/touch.js"></script>
+        </body>
+</html>

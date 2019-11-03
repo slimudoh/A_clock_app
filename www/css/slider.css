@@ -1,0 +1,43 @@
+            /*0 to 100*/
+            @keyframes zerohundred {
+                from {left : 0px;}
+                to {left : 100%;}
+            }
+
+            @-webkit-keyframes zerohundred {
+                from {left : 0px;}
+                to {left : 100%;}
+            }
+
+            /*100 to 0*/
+            @keyframes hundredzero {
+                from {left : 100%;}
+                to {left : 0px;}
+            }
+
+            @-webkit-keyframes hundredzero {
+                from {left : 100%;}
+                to {left : 0px;}
+            }
+
+            /*0 to -100*/
+            @keyframes zero-hundred {
+                from {left : 0px;}
+                to {left : -100%;}
+            }
+
+            @-webkit-keyframes zero-hundred {
+                from {left : 0px;}
+                to {left : -100%;}
+            }
+
+             /*-100 to 0*/
+            @keyframes hundred-zero {
+                from {left : -100%;}
+                to {left : 0px;}
+            }
+
+            @-webkit-keyframes hundred-zero {
+               from {left : -100%;}
+                to {left : 0px;}
+            }

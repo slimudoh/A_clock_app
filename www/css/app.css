@@ -1,0 +1,254 @@
+
+
+	html, body {
+                height: 100%;
+            }
+
+            .container {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                overflow: hidden;
+                background: #3c763d;
+            }
+
+            .top {
+                width: 100%;
+                height: 10%;
+                text-align: center;
+                color: #fff;
+                position: absolute;
+                border-bottom: 1px solid  rgba(0, 0, 0, .4);
+                top: 0;
+                left: 0;
+                overflow: hidden;
+            }
+
+            .top-btn {
+                display: inline-block;
+                width: 49%;
+                height: 40px;
+                text-transform: uppercase;
+                font-size: 13px;
+                padding-top: 10px;
+                margin-top: 4%;
+                border-radius: 4px;
+                cursor: pointer;
+           }
+           
+             .red {
+                width: 100%;
+                height: 90%;
+                text-align: center;
+                color: #fff;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+
+             .blue {
+                width: 100%;
+                height: 90%;
+                text-align: center;
+                color: #fff;
+                position: absolute;
+                bottom: 0;
+                left: -100%;
+            }
+
+
+            .yellow {
+                width: 100%;
+                height: 90%;
+                text-align: center;
+                color: #fff;
+                position: absolute;
+                bottom: 0;
+                left: -100%;
+            }
+
+
+         .green {
+                width: 100%;
+                height: 90%;
+                text-align: center;
+                color: #fff;
+                position: absolute;
+                bottom: 0;
+                left: -100%;
+            }
+
+
+            .clock-holder {
+                width: 100%;
+                margin: 20% auto 0 auto;
+
+            }
+
+            .clock-time {
+                width: 100%;
+                overflow: hidden;
+            }
+
+            .ct-left {
+                width: 50%;
+                float: left;
+                text-align: right;
+            }
+
+            .ct-right {
+                width: 50%;
+                float: right;
+                text-align: left;
+                padding-top: 60px;
+            }
+
+             .clock-date {
+                width: 100%;
+                overflow: hidden;
+            }
+
+            .big-time {
+                font-weight: 600;
+                font-size: 6em;
+            }
+
+             .small-time {
+                font-weight: 600;
+                font-size: 2em;
+            }
+
+            .clock-date {
+                font-weight: 600;
+                font-size: 2em;
+            }
+
+            .clock-footer {
+                width: 100%;
+                height: 50px;
+                position: absolute;
+                bottom: 0;
+            }
+
+
+            .footer-btn {
+                    display: inline-block;
+                    width: 30%;
+                    height: 50px;
+                    text-transform: uppercase;
+                    font-size: 13px;
+                    border-radius: 4px;
+                    padding-top: 15px;
+                    margin: 0 1%;
+            }
+
+            .footer-txt {
+                cursor: pointer;
+            }
+
+
+            .timer-body {
+                width: 90%;
+                margin: 20% auto 0 auto;
+                height: 50px;
+                border-bottom: 1px solid #222;
+            }
+
+            .tb-box {
+                display: inline-block;
+                width: 30%;
+                height: 50px;
+            }
+
+            .tb-value {
+                font-size: 3em;
+            }
+
+            .tb-letter {
+                font-size: 1.5em;
+            }
+
+            .timer-keys {
+                 width: 90%;
+                 margin: 0 auto;
+                 padding-top: 10px;
+            }
+
+            .tb-btn {
+                 display: inline-block;
+                width: 30%;
+                height: 50px;
+                margin-top: 20px;
+                font-size: 3em;
+            }
+
+            .tb-btn > span {
+                 cursor: pointer;
+            }
+
+
+            .new-alarm {
+                width: 150px;
+                background-color: rgba(0, 0, 0, .5);
+                height: 40px;
+                border-radius: 60px;
+                margin: 0 auto;
+                padding-top: 10px;
+            }
+
+
+            .alarm-detail {
+                width: 90%;
+                height: 100%;
+                margin: 0 auto;
+                padding-top: 30px;
+                overflow: auto;            
+            }
+
+            .ad-time {
+                width: 100%;
+                padding: 5px;
+                overflow: hidden;
+            }
+
+            .ad-left {
+                width: 40%;
+                float: left;
+            }
+
+            .time {
+                font-size: 3em;
+            }
+
+            .ad-right {
+                width: 40%;
+                float: right;
+                text-align: right;
+                padding-top: 10px;
+                font-size: 2em;
+            }
+
+             .ad-right ul {
+                list-style-type: none;
+                padding-left: 0;
+            }
+
+            .ad-right ul li {
+                display: inline-block;
+                margin: 0 10px;
+            }
+
+            .ad-detail {
+                text-align: left;
+            }
+
+            .alarm-box {
+                 border-bottom: 1px solid #222;
+            }
+
+            .timer-text {
+                cursor: pointer;
+            }
+
+            
+      

@@ -1,0 +1,9 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "cordova-minify": "0.0.15"
+  }
+}
